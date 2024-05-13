@@ -25,7 +25,7 @@ form h2 {
     color: #333;
 }
 
-input[type="txt"] {
+input[type="txt"] { /* criar um design especifico */
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 10px;
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-    background-color: #3f51b5;
+    background-color: #5c93c0;
 }
 
 footer {
@@ -70,4 +70,9 @@ footer {
 
 .attribution a:hover {
     text-decoration: underline;
+}
+
+.completed {
+    text-decoration: line-through; 
+    color: #999; 
 }
